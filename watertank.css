@@ -1,0 +1,16 @@
+body{
+  text-align:center;
+}
+
+table{
+  margin:auto;
+}
+
+td{
+  width:80px;
+  height:30px;
+}
+
+.blue{
+  background-color:blue;
+}
