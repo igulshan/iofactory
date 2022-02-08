@@ -1,0 +1,257 @@
+.container {
+  width: 100%;
+}
+
+.header {
+  text-align: center;
+  height: 70px;
+}
+.logo {
+  width: 30px;
+  height: 30px;
+  margin-top: 20px;
+}
+
+.logotext {
+  font-family: Satisfy;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 30px;
+  margin-top: 20px;
+}
+
+.menu {
+  text-align: center;
+}
+.menuhead {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 34px;
+  line-height: 40px;
+  color: #2b2b2b;
+}
+
+.leftmenu,
+.rightmenu {
+  width: 49%;
+}
+.dishcontent {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftmenu {
+  height: 600px;
+  margin-left: 30px;
+}
+.dish {
+  width: 45%;
+  height: 300px;
+  display: inline-block;
+  border-radius: 10px;
+  position: relative;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  text-align: left;
+}
+
+.dish1 {
+  background-image: url("./images/Bitmap.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 623px;
+  border-radius: 10px;
+  position: relative;
+  text-align: left;
+}
+
+.dish2 {
+  background-image: url("./images/Bitmap\ \(1\).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.dish3 {
+  background-image: url("./images/Bitmap\ \(2\).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.dish4 {
+  background-image: url("./images/Bitmap\ \(3\).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.dish5 {
+  background-image: url("./images/Bitmap\ \(4\).png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+.dishdetail {
+  background-color: #fff;
+  opacity: 0.7;
+  position: absolute;
+  bottom: 0;
+  width: 86.7%;
+  padding-left: 20px;
+  padding-right: 25px;
+  height: 160px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.dishdetail:hover {
+  color: white;
+  background-color: black;
+  opacity: 0.7;
+}
+
+.dishdetail1 {
+  position: absolute;
+  bottom: 0;
+  width: 92%;
+  background-color: rgb(125, 6, 180);
+  color: white;
+  padding-left: 30px;
+  padding-right: 30px;
+  height: 200px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+
+.dishbtn {
+  display: inline-block;
+  position: relative;
+}
+
+.star {
+  font-size: 36px;
+  margin-right: 10px;
+}
+
+.arrow {
+  font-weight: bolder;
+  font-size: 26px;
+  margin-left: 50px;
+}
+
+.btnright {
+  margin-left: 170px;
+}
+
+.starspace {
+  margin-left: 560px;
+}
+
+.btnfont {
+  font-size: 12px;
+  position: absolute;
+  top: 6px;
+}
+
+.f2 {
+  top: 16px;
+}
+
+.mid {
+  display: flex;
+}
+
+.midcontent {
+  width: 28%;
+  margin-left: 75px;
+  text-align: left;
+}
+
+.midheadline {
+  width: 40px;
+  margin: auto;
+}
+
+.chef {
+  background-image: url("./images/image\ 2.png");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  width: 96%;
+  margin-left: 30px;
+  height: 400px;
+  margin-top: 20px;
+}
+
+.chefdetails {
+  display: inline-block;
+  margin-top: 50px;
+  color: white;
+  width: 25%;
+  padding: 20px;
+  margin-left: 20px;
+}
+
+.chefdetails:hover {
+  background-color: #fff;
+  color: black;
+  border-radius: 5px;
+}
+
+.chefimg {
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+}
+
+.footer {
+  background-image: url("./images/4th\ Food\ Banner\ 3.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  height: 700px;
+  margin-top: 0;
+}
+.diethead {
+  padding-top: 40px;
+  font-weight: lighter;
+  margin-block-start: 0;
+  margin-block-end: 1em;
+}
+
+.dietdetails {
+  display: inline-block;
+  width: 300px;
+  margin-left: 40px;
+  font-size: 12px;
+}
+
+.diet {
+  margin-top: 40px;
+}
+.dietright {
+  margin-left: 750px;
+}
+
+.dietback {
+  background-image: url("./images/Vector\ \(4\).png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 50% 50%;
+  background-color: #342679b2;
+  width: 80px;
+  height: 70px;
+  border-radius: 50%;
+  margin-left: 100px;
+}
+
+.dietback1 {
+  background-image: url("./images/Vector\ \(3\).png");
+}
+.dietback2 {
+  background-image: url("./images/Vector\ \(2\).png");
+}
+
+.dietimg {
+  size: 100% 100%;
+}
+
+.dietbottom {
+  margin-top: 200px;
+}
